@@ -2,6 +2,8 @@
  
 Voici une série d'exercices permettant de t'entraîner à l'écriture de fonctions! Pour chaque exercice, on vous précise une **entrée** et la **sortie** attendue, à toi d'écrire la procédure nécessaire pour joindre les deux bouts!
 
+Dans chaque exercice, tu devras écrire ton code à la place de l'instruction **pass**.
+
 ## Exo 1: le doubleur
 
 Dans le fichier **exo1.py**, tu dois écrire une fonction qui renvoie le double d'un nombre.
@@ -64,3 +66,18 @@ Si la liste contient autre chose que des nombres, la fonction doit les remplacer
 ### Bonus 2 (facultatif)
 
 Si l'entrée n'est pas une liste, mais un nombre, la fonction doit renvoyer ce nombre multiplié par l'autre nombre.
+
+## Exo 6: le testeur de signe en cascade
+
+Dans le fichier **exo4.py**, tu dois écrire une fonction qui renvoie, pour chaque élément, s'il est positif ou non.
+
+**ENTREE:** une liste de nombres.
+**SORTIE:** une liste de booléens. Si le nombre d'origine est positif, True. Sinon, False.
+
+### Bonus (facultatif)
+
+Si la liste contient autre chose que des nombres, la fonction doit les remplacer par None, ou produire un message d'erreur.
+
+### Bonus 2 (facultatif)
+
+Si un nombre est égal à zéro, il devrait être remplacé par None dans la liste en sortie, plutôt que True ou False.
