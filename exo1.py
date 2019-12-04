@@ -1,6 +1,6 @@
 def double(number):
     # Début de ton code
-    pass
+    return number * 2
     # Fin de ton code
 
 
