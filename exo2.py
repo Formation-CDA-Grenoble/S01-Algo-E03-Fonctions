@@ -1,8 +1,8 @@
 def conditionalDouble(number):
     # Début de ton code
-    if number > 0:
-        return number * 2
-    return number
+    if not type(number) is int:
+        raise Exception("Argument must be an integer in double()")
+    return (number * 2) if number > 0 else number
     # Fin de ton code
 
 
