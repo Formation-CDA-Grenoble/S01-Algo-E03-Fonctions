@@ -69,7 +69,7 @@ Si l'entrée n'est pas une liste, mais un nombre, la fonction doit renvoyer ce n
 
 ## Exo 6: le testeur de signe en cascade
 
-Dans le fichier **exo4.py**, tu dois écrire une fonction qui renvoie, pour chaque élément, s'il est positif ou non.
+Dans le fichier **exo6.py**, tu dois écrire une fonction qui renvoie, pour chaque élément, s'il est positif ou non.
 
 **ENTREE:** une liste de nombres.
 **SORTIE:** une liste de booléens. Si le nombre d'origine est positif, True. Sinon, False.
@@ -81,3 +81,18 @@ Si la liste contient autre chose que des nombres, la fonction doit les remplacer
 ### Bonus 2 (facultatif)
 
 Si un nombre est égal à zéro, il devrait être remplacé par None dans la liste en sortie, plutôt que True ou False.
+
+## Exo 7: le comparateur en cascade
+
+Dans le fichier **exo7.py**, tu dois écrire une fonction qui renvoie, pour chaque élément, s'il est plus grand qu'un autre nombre, ou pas.
+
+**ENTREE:** une liste de nombres.
+**SORTIE:** une liste de booléens. Si le nombre d'origine est supérieur ou égal au deuxième nombre, True. Sinon, False.
+
+### Bonus (facultatif)
+
+Si la liste contient autre chose que des nombres, la fonction doit les remplacer par None, ou produire un message d'erreur.
+
+### Bonus 2 (facultatif)
+
+Si un nombre est égal au deuxième nombre, il devrait être remplacé par None dans la liste en sortie, plutôt que True.
