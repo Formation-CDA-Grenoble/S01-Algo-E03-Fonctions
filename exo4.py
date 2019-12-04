@@ -1,6 +1,9 @@
 def cascadeDouble(list):
     # Début de ton code
-    pass
+    result = []
+    for number in list:
+        result.append(number * 2)
+    return result
     # Fin de ton code
 
 
