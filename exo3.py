@@ -1,8 +1,13 @@
 def isEqual(number1, number2):
     # Début de ton code
+    if not isNumber(number1) or not isNumber(number2):
+        raise Exception("Arguments must be integers in isEqual()")
     return number1 == number2
     # Fin de ton code
 
+
+def isNumber(number):
+    return type(number) is int or type(number) is float
 
 
 # Pas touche!
