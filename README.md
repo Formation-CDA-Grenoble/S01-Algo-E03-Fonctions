@@ -49,3 +49,18 @@ Si la liste contient autre chose que des nombres, la fonction doit les remplacer
 ### Bonus 2 (facultatif)
 
 Si l'entrée n'est pas une liste, mais un nombre, la fonction doit renvoyer le double de ce nombre (comme à l'exercice 1).
+
+## Exo 5: le multiplicateur en cascade
+
+Dans le fichier **exo5.py**, tu dois écrire une fonction qui renvoie chaque élément d'une liste, multiplié par un nombre donné.
+
+**ENTREE:** une liste de nombres, puis un nombre.
+**SORTIE:** une liste de nombres égaux à chaque nombre de la liste d'origine multiplié par l'autre nombre.
+
+### Bonus (facultatif)
+
+Si la liste contient autre chose que des nombres, la fonction doit les remplacer par None, ou produire un message d'erreur.
+
+### Bonus 2 (facultatif)
+
+Si l'entrée n'est pas une liste, mais un nombre, la fonction doit renvoyer ce nombre multiplié par l'autre nombre.

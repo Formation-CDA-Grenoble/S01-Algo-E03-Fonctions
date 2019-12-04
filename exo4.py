@@ -1,4 +1,4 @@
-def cascadeDouble(number):
+def cascadeDouble(list):
     # Début de ton code
     pass
     # Fin de ton code
