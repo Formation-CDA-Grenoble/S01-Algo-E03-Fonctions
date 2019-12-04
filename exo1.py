@@ -13,7 +13,6 @@ tests = (
     (7, 14),
     (0, 0),
     (-3, -6),
-    ("pouet", 0),
 )
 
 for test in tests:
