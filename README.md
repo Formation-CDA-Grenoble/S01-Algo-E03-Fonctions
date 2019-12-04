@@ -26,6 +26,10 @@ Dans le fichier **exo2.py**, tu dois écrire une fonction qui renvoie le double 
 
 Si l'entrée n'est pas un nombre, la fonction doit renvoyer None, ou produire un message d'erreur.
 
+### Bonus 2 (facultatif)
+
+Trouver comment écrire la condition sur une seule et même ligne.
+
 ## Exo 3: le testeur d'égalité
 
 Dans le fichier **exo3.py**, tu dois écrire une fonction qui détermine si deux nombres sont égaux.
@@ -36,6 +40,10 @@ Dans le fichier **exo3.py**, tu dois écrire une fonction qui détermine si deux
 ### Bonus (facultatif)
 
 Si l'entrée n'est pas un nombre, la fonction doit renvoyer False également, ou produire un message d'erreur.
+
+### Bonus 2 (facultatif)
+
+Trouver comment écrire la condition sur une seule et même ligne.
 
 ## Exo 4: le doubleur en cascade
 
@@ -52,6 +60,10 @@ Si la liste contient autre chose que des nombres, la fonction doit les remplacer
 
 Si l'entrée n'est pas une liste, mais un nombre, la fonction doit renvoyer le double de ce nombre (comme à l'exercice 1).
 
+### Bonus 3 (facultatif)
+
+Trouver la fonction du langage Python qui permet d'écrire cette fonction en une seule ligne.
+
 ## Exo 5: le multiplicateur en cascade
 
 Dans le fichier **exo5.py**, tu dois écrire une fonction qui renvoie chaque élément d'une liste, multiplié par un nombre donné.
@@ -66,6 +78,10 @@ Si la liste contient autre chose que des nombres, la fonction doit les remplacer
 ### Bonus 2 (facultatif)
 
 Si l'entrée n'est pas une liste, mais un nombre, la fonction doit renvoyer ce nombre multiplié par l'autre nombre.
+
+### Bonus 3 (facultatif)
+
+Trouver la fonction du langage Python qui permet d'écrire cette fonction en une seule ligne.
 
 ## Exo 6: le testeur de signe en cascade
 
@@ -82,6 +98,10 @@ Si la liste contient autre chose que des nombres, la fonction doit les remplacer
 
 Si un nombre est égal à zéro, il devrait être remplacé par None dans la liste en sortie, plutôt que True ou False.
 
+### Bonus 3 (facultatif)
+
+Trouver la fonction du langage Python qui permet d'écrire cette fonction en une seule ligne.
+
 ## Exo 7: le comparateur en cascade
 
 Dans le fichier **exo7.py**, tu dois écrire une fonction qui renvoie, pour chaque élément, s'il est plus grand qu'un autre nombre, ou pas.
@@ -96,3 +116,22 @@ Si la liste contient autre chose que des nombres, la fonction doit les remplacer
 ### Bonus 2 (facultatif)
 
 Si un nombre est égal au deuxième nombre, il devrait être remplacé par None dans la liste en sortie, plutôt que True.
+
+### Bonus 3 (facultatif)
+
+Trouver la fonction du langage Python qui permet d'écrire cette fonction en une seule ligne.
+
+## Exo 8: le réducteur
+
+Dans le fichier **exo8.py**, tu dois écrire une fonction qui renvoie la somme de tous les éléments d'une liste.
+
+**ENTREE:** une liste de nombres.
+**SORTIE:** un nombre entier égal à la somme de tous les nombres de la liste en entrée.
+
+### Bonus (facultatif)
+
+Si la liste contient autre chose que des nombres, la fonction doit renvoyer None, ou produire un message d'erreur.
+
+### Bonus 2 (facultatif)
+
+Trouver l'écriture du langage Python qui permet d'écrire cette fonction en une seule ligne.
