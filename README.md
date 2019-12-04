@@ -9,12 +9,20 @@ Dans le fichier **exo1.py**, tu dois écrire une fonction qui renvoie le double 
 **ENTREE:** un nombre entier.
 **SORTIE:** un nombre entier égal au double de l'entrée.
 
+### Bonus (facultatif)
+
+Si l'entrée n'est pas un nombre, la fonction doit renvoyer None, ou produire un message d'erreur.
+
 ## Exo 2: le doubleur conditionnel
 
 Dans le fichier **exo2.py**, tu dois écrire une fonction qui renvoie le double d'un nombre, mais seulement si celui-ci est positif.
 
 **ENTREE:** un nombre entier.
 **SORTIE:** si l'entrée est positive, un nombre entier égal à son double. Si l'entrée est négative, un nombre entier égal à elle-même.
+
+### Bonus (facultatif)
+
+Si l'entrée n'est pas un nombre, la fonction doit renvoyer None, ou produire un message d'erreur.
 
 ## Exo 3: le testeur d'égalité
 
