@@ -1,6 +1,6 @@
 def isEqual(number1, number2):
     # Début de ton code
-    pass
+    return number1 == number2
     # Fin de ton code
 
 
