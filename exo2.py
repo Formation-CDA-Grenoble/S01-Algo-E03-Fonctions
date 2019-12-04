@@ -1,6 +1,8 @@
 def conditionalDouble(number):
     # Début de ton code
-    pass
+    if number > 0:
+        return number * 2
+    return number
     # Fin de ton code
 
 
