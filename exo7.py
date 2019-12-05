@@ -1,12 +1,6 @@
 def cascadeIsGreater(list, threshold):
     # Début de ton code
-    result = []
-    for number in list:
-        if number >= threshold:
-            result.append(True)
-        else:
-            result.append(False)
-    return result
+    return [True if (x >= threshold) else False for x in list]
     # Fin de ton code
 
 
