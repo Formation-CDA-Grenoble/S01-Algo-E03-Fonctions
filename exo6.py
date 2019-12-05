@@ -2,7 +2,14 @@ def cascadeIsPositive(list):
     # Début de ton code
     result = []
     for number in list:
-        result.append(number > 0)
+        # Si le nombre est égal à zéro
+        if number == 0:
+            # Ajoute None dans la liste
+            result.append(None)
+        # Sinon
+        else:
+            # Ajoute dans la liste True ou False en fonction du signe du nombre
+            result.append(number > 0)
     return result
     # Fin de ton code
 
