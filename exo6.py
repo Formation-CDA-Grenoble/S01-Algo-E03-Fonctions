@@ -1,6 +1,9 @@
 def cascadeIsPositive(list):
     # Début de ton code
-    pass
+    result = []
+    for number in list:
+        result.append(number > 0)
+    return result
     # Fin de ton code
 
 
