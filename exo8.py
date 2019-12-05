@@ -1,6 +1,9 @@
 def reducer(list):
     # Début de ton code
-    pass
+    sum = 0
+    for number in list:
+        sum = sum + number
+    return sum
     # Fin de ton code
 
 
