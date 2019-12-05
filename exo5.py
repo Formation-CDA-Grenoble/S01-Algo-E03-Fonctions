@@ -1,6 +1,9 @@
-def cascadeMultiply(list, number):
+def cascadeMultiply(list, multiplier):
     # Début de ton code
-    pass
+    result = []
+    for number in list:
+        result.append(number * multiplier)
+    return result
     # Fin de ton code
 
 
